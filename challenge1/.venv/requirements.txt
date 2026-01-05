@@ -1,0 +1,7 @@
+# Requirements to execute discover and race scripts
+# Install using the following command in your vscode terminal: pip install -r requirements.txt
+
+matplotlib>=3.5.0
+#json is already built-in
+#random is built-in
+# collections is built-in
