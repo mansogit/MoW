@@ -1,0 +1,363 @@
+{
+  "maze_map": {
+    "h_walls": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      [
+        false,
+        false,
+        true,
+        false,
+        true
+      ],
+      [
+        false,
+        true,
+        true,
+        true,
+        false
+      ],
+      [
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    ],
+    "v_walls": [
+      [
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        false,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        false,
+        true,
+        false,
+        true
+      ],
+      [
+        true,
+        false,
+        false,
+        false,
+        true,
+        true
+      ],
+      [
+        true,
+        false,
+        false,
+        false,
+        false,
+        true
+      ]
+    ],
+    "size": 5
+  },
+  "start_position": {
+    "row": 3,
+    "col": 4
+  },
+  "target_position": {
+    "row": 2,
+    "col": 2
+  },
+  "shortest_path": [
+    {
+      "step": 0,
+      "row": 3,
+      "col": 4,
+      "x_cm": 135,
+      "y_cm": 105,
+      "direction": "start"
+    },
+    {
+      "step": 1,
+      "row": 2,
+      "col": 4,
+      "x_cm": 135,
+      "y_cm": 75,
+      "direction": "up"
+    },
+    {
+      "step": 2,
+      "row": 2,
+      "col": 3,
+      "x_cm": 105,
+      "y_cm": 75,
+      "direction": "left"
+    },
+    {
+      "step": 3,
+      "row": 1,
+      "col": 3,
+      "x_cm": 105,
+      "y_cm": 45,
+      "direction": "up"
+    },
+    {
+      "step": 4,
+      "row": 1,
+      "col": 2,
+      "x_cm": 75,
+      "y_cm": 45,
+      "direction": "left"
+    },
+    {
+      "step": 5,
+      "row": 0,
+      "col": 2,
+      "x_cm": 75,
+      "y_cm": 15,
+      "direction": "up"
+    },
+    {
+      "step": 6,
+      "row": 0,
+      "col": 1,
+      "x_cm": 45,
+      "y_cm": 15,
+      "direction": "left"
+    },
+    {
+      "step": 7,
+      "row": 1,
+      "col": 1,
+      "x_cm": 45,
+      "y_cm": 45,
+      "direction": "down"
+    },
+    {
+      "step": 8,
+      "row": 2,
+      "col": 1,
+      "x_cm": 45,
+      "y_cm": 75,
+      "direction": "down"
+    },
+    {
+      "step": 9,
+      "row": 2,
+      "col": 2,
+      "x_cm": 75,
+      "y_cm": 75,
+      "direction": "right"
+    }
+  ],
+  "sensed_barriers": [
+    {
+      "type": "v",
+      "row": 1,
+      "col": 2
+    },
+    {
+      "type": "v",
+      "row": 3,
+      "col": 0
+    },
+    {
+      "type": "v",
+      "row": 0,
+      "col": 1
+    },
+    {
+      "type": "h",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "type": "v",
+      "row": 0,
+      "col": 0
+    },
+    {
+      "type": "h",
+      "row": 0,
+      "col": 4
+    },
+    {
+      "type": "h",
+      "row": 4,
+      "col": 0
+    },
+    {
+      "type": "v",
+      "row": 1,
+      "col": 4
+    },
+    {
+      "type": "h",
+      "row": 1,
+      "col": 3
+    },
+    {
+      "type": "v",
+      "row": 2,
+      "col": 1
+    },
+    {
+      "type": "h",
+      "row": 4,
+      "col": 1
+    },
+    {
+      "type": "v",
+      "row": 1,
+      "col": 5
+    },
+    {
+      "type": "h",
+      "row": 4,
+      "col": 2
+    },
+    {
+      "type": "v",
+      "row": 2,
+      "col": 0
+    },
+    {
+      "type": "v",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "type": "h",
+      "row": 5,
+      "col": 1
+    },
+    {
+      "type": "v",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "type": "h",
+      "row": 0,
+      "col": 2
+    },
+    {
+      "type": "v",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "type": "h",
+      "row": 5,
+      "col": 0
+    },
+    {
+      "type": "h",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "type": "v",
+      "row": 4,
+      "col": 0
+    },
+    {
+      "type": "v",
+      "row": 0,
+      "col": 5
+    },
+    {
+      "type": "h",
+      "row": 0,
+      "col": 3
+    },
+    {
+      "type": "h",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "type": "h",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "type": "v",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "type": "h",
+      "row": 2,
+      "col": 2
+    },
+    {
+      "type": "h",
+      "row": 0,
+      "col": 0
+    },
+    {
+      "type": "v",
+      "row": 1,
+      "col": 0
+    },
+    {
+      "type": "h",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "type": "h",
+      "row": 3,
+      "col": 1
+    },
+    {
+      "type": "h",
+      "row": 0,
+      "col": 1
+    },
+    {
+      "type": "v",
+      "row": 1,
+      "col": 1
+    },
+    {
+      "type": "v",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "type": "h",
+      "row": 2,
+      "col": 4
+    }
+  ]
+}
