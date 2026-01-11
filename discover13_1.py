@@ -125,13 +125,13 @@ class Robot:
             api.single_fly_forward(30)
         elif direction == 'down': 
             self.pos = (r+1, c)
-            api.single_fly_backward(30)
+            api.single_fly_back(30)
         elif direction == 'left':
             self.pos = (r, c-1)
-            api.singly_fly_left(30)
+            api.single_fly_left(30)
         elif direction == 'right': 
             self.pos = (r, c+1)
-            api.singly_fly_right(30)
+            api.single_fly_right(30)
     
     def explore(self):
         """Explore all cells"""
