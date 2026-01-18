@@ -1,5 +1,8 @@
 # MoW
 
+# Local Repo
+C:\Users\Admin\Desktop\HULA Project\7 Detect Object
+
 ## Directory Structure
 
 | Folder | Description |
